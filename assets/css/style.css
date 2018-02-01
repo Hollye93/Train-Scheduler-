@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/96/485816a69319e91.jpg");
+    color: white;
+}
+
 #banner {
   height: 150px;
   padding-top: 10px;
@@ -5,6 +10,7 @@
 
 #mainForm {
   padding-top: 50px;
+  font-weight: 950;
 }
 
 label {
@@ -12,7 +18,22 @@ label {
 }
 
 @media only screen and (max-width: 640px) {
-  #banner{
+  
+
+#banner{
     height: 200px;
   }
 }
+
+td, th {
+    background: #101010;
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+
+
+
