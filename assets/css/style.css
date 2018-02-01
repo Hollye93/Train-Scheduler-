@@ -1,6 +1,11 @@
 body {
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/96/485816a69319e91.jpg");
     color: white;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/09/96/485816a69319e91.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%; 
+	background-size: 100%;
+
 }
 
 #banner {
